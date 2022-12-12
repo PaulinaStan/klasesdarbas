@@ -1,0 +1,66 @@
+
+
+.foto {
+padding: 5px;
+    background-color: #1a77c2;
+    border-radius: 30px;
+}
+nav li {
+    float: right;
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    transition: all 700ms;
+}
+header {
+    height: 150px;
+    display: grid;
+    grid-template-areas:
+        'logo slogan'
+        'logo meniu';
+    background-color: #faf4d7;
+    box-sizing: border-box;
+}
+.logout {
+    grid-area: logo;
+}
+.slogan {
+    grid-area: slogan;
+}
+header nav{
+    grid-area: meniu;
+}
+
+li {
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside, nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main div{
+    float: left;
+}
+main div img {
+   display:block;
+    width: 200px;
+
+}
